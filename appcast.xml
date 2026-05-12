@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>EzhevikaStudio</title>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Tue, 12 May 2026 18:07:06 +0300</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Ezhevika Studio 1.0.1
+
+- Added Sparkle-based update checking.
+- Increased VoiceGen and Voicer network timeouts for slower audio generation.
+- Kept Swift as the preferred segment muxing path with ffmpeg only as fallback.
+]]></description>
+            <enclosure url="https://github.com/shik18/EzhevikaStudioUpdates/releases/download/v1.0.1/EzhevikaStudio-1.0.1.zip" length="3951571" type="application/octet-stream" sparkle:edSignature="yrjXuqygQpSuUYIB+Ne+e1DSLjKiNcXW2TM58PuI1zM2DDnXjZxgBj4Mw26tPSgGdDywneQSWC5vDenAUXC8Aw=="/>
+        </item>
+    </channel>
+</rss>
