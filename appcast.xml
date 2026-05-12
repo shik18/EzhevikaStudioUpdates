@@ -3,6 +3,22 @@
     <channel>
         <title>EzhevikaStudio</title>
         <item>
+            <title>1.0.2</title>
+            <pubDate>Tue, 12 May 2026 18:47:09 +0300</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[## Ezhevika Studio 1.0.2
+
+- Maintenance update.
+]]></description>
+            <enclosure url="https://github.com/shik18/EzhevikaStudioUpdates/releases/download/v1.0.2/EzhevikaStudio-1.0.2.zip" length="3971337" type="application/octet-stream" sparkle:edSignature="QwBm+R9CLGBiY+ygRYwfHjj0CNNfhq4o9vfmbt2gqfZR2lto4kNe6Idwh547LHcxm77sJkPlvykT31bdgZiADw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/shik18/EzhevikaStudioUpdates/releases/download/v1.0.2/EzhevikaStudio3-2.delta" sparkle:deltaFrom="2" length="142258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cBQ0FXD4zCJlxzL/IE3oxTylSp2sZsysVDbVAXU1J/knmnUKyTyD74jBStl21V1Pj1wiyO73LVxeC0u2r1AKBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.1</title>
             <pubDate>Tue, 12 May 2026 18:07:06 +0300</pubDate>
             <sparkle:version>2</sparkle:version>
@@ -15,7 +31,7 @@
 - Increased VoiceGen and Voicer network timeouts for slower audio generation.
 - Kept Swift as the preferred segment muxing path with ffmpeg only as fallback.
 ]]></description>
-            <enclosure url="https://github.com/shik18/EzhevikaStudioUpdates/releases/download/v1.0.1/EzhevikaStudio-1.0.1.zip" length="3951571" type="application/octet-stream" sparkle:edSignature="yrjXuqygQpSuUYIB+Ne+e1DSLjKiNcXW2TM58PuI1zM2DDnXjZxgBj4Mw26tPSgGdDywneQSWC5vDenAUXC8Aw=="/>
+            <enclosure url="https://github.com/shik18/EzhevikaStudioUpdates/releases/download/v1.0.2/EzhevikaStudio-1.0.1.zip" length="3951571" type="application/octet-stream" sparkle:edSignature="yrjXuqygQpSuUYIB+Ne+e1DSLjKiNcXW2TM58PuI1zM2DDnXjZxgBj4Mw26tPSgGdDywneQSWC5vDenAUXC8Aw=="/>
         </item>
     </channel>
 </rss>
