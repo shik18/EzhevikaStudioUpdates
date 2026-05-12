@@ -3,19 +3,22 @@
     <channel>
         <title>EzhevikaStudio</title>
         <item>
-            <title>1.0.4</title>
-            <pubDate>Tue, 12 May 2026 19:18:33 +0300</pubDate>
-            <sparkle:version>5</sparkle:version>
-            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <title>1.0.5</title>
+            <pubDate>Tue, 12 May 2026 20:57:40 +0300</pubDate>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Ezhevika Studio 1.0.4
+            <description sparkle:format="markdown"><![CDATA[## Ezhevika Studio 1.0.5
 
-- Maintenance update.
+- Final Swift concat now uses the same AVFoundation re-encode path as the standalone Ezhevika.
+- Removes the AVAssetWriter mux path that could hang on the final concat step.
+- Full bundled video overlay resources are included.
 ]]></description>
-            <enclosure url="https://github.com/shik18/EzhevikaStudioUpdates/releases/download/v1.0.4/EzhevikaStudio-1.0.4.zip" length="325847503" type="application/octet-stream" sparkle:edSignature="Z4q6svnaVYmiapwr4dCah5vriClTyHr2ilKIcEFiJxgkYNYAc2o5ei1j7CuvxcKibKbkKmAYUKxs75bgbw5CAw=="/>
+            <enclosure url="https://github.com/shik18/EzhevikaStudioUpdates/releases/download/v1.0.5/EzhevikaStudio-1.0.5.zip" length="325839928" type="application/octet-stream" sparkle:edSignature="E+K03YDShXB/5cnU6uqdUey82MP17GjT7eEWlkrXygdU2Dq+rEcz0Vf/hxdZa+SwOr5koD8H+dH2m3E1duRwAg=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/shik18/EzhevikaStudioUpdates/releases/download/v1.0.4/EzhevikaStudio5-4.delta" sparkle:deltaFrom="4" length="1478" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JW/+a6Y46R1qdtj1EVsLJTs9hcoQ7n8fcdHE/J8bcDNbkQHE2dSs39hCpmFmT2YSczdhfGp4h7fJcGlkXllRAA=="/>
+                <enclosure url="https://github.com/shik18/EzhevikaStudioUpdates/releases/download/v1.0.5/EzhevikaStudio6-5.delta" sparkle:deltaFrom="5" length="52818" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ikqaexrd3xHD0Ee/xtU865kIGy3t4YK8Omde059FpmnbwxtFeEm2Ko9l35vYS/dSokj5NGsZy54XvHI9rB//Aw=="/>
+                <enclosure url="https://github.com/shik18/EzhevikaStudioUpdates/releases/download/v1.0.5/EzhevikaStudio6-4.delta" sparkle:deltaFrom="4" length="52902" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wk8i/qpWDxmbr8O4P6qCIdO6hkOXegIg8i1hYPNMqj90lxGK8uLrGLDHZtJiMtz6MuPW90K39j41m0j9BJ1rDw=="/>
             </sparkle:deltas>
         </item>
     </channel>
