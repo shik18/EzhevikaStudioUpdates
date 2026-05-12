@@ -3,19 +3,20 @@
     <channel>
         <title>EzhevikaStudio</title>
         <item>
-            <title>1.0.3</title>
-            <pubDate>Tue, 12 May 2026 19:03:20 +0300</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <title>1.0.4</title>
+            <pubDate>Tue, 12 May 2026 19:18:33 +0300</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[## Ezhevika Studio 1.0.3
+            <description sparkle:format="markdown"><![CDATA[## Ezhevika Studio 1.0.4
 
-- Full app bundle with bundled video overlay resources restored.
-- License screen now opens before the main interface.
-- Sparkle update feed points to the full 1.0.3 build.
+- Maintenance update.
 ]]></description>
-            <enclosure url="https://github.com/shik18/EzhevikaStudioUpdates/releases/download/v1.0.3/EzhevikaStudio-1.0.3.zip" length="325847495" type="application/octet-stream" sparkle:edSignature="zbR1wbEeBZhwvs5g1b/MMQjfcmX74hoq3ejTHJlbX68JaE/OlvNmgqprYYuFK/96GXjXeAhFTcH6J2TrhAd1Bg=="/>
+            <enclosure url="https://github.com/shik18/EzhevikaStudioUpdates/releases/download/v1.0.4/EzhevikaStudio-1.0.4.zip" length="325847503" type="application/octet-stream" sparkle:edSignature="Z4q6svnaVYmiapwr4dCah5vriClTyHr2ilKIcEFiJxgkYNYAc2o5ei1j7CuvxcKibKbkKmAYUKxs75bgbw5CAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/shik18/EzhevikaStudioUpdates/releases/download/v1.0.4/EzhevikaStudio5-4.delta" sparkle:deltaFrom="4" length="1478" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977616" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JW/+a6Y46R1qdtj1EVsLJTs9hcoQ7n8fcdHE/J8bcDNbkQHE2dSs39hCpmFmT2YSczdhfGp4h7fJcGlkXllRAA=="/>
+            </sparkle:deltas>
         </item>
     </channel>
 </rss>
